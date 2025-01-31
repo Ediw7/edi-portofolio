@@ -83,14 +83,14 @@ const Home = () => {
           data-aos-duration="1000"
           className="relative"
         >
-            <div className="w-60 h-60 md:w-80 md:h-80 relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
-            <img
-                src="./images/edi.png"
-                alt="Your Photo"
-                className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10 md:translate-y-0 translate-y-6"
-            />
-            </div>
+        <div className="w-60 h-60 md:w-80 md:h-80 relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
+        <img
+            src="./images/edi.png"
+            alt="Your Photo"
+            className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10 md:translate-y-0 translate-y-6"
+        />
+        </div>
 
         </div>
       </div>
