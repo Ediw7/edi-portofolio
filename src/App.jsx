@@ -11,9 +11,9 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="min-h-screen w-full bg-[#242424] text-white">
+    <div>
       <Navbar /> 
-      <div className="w-full">
+      <div>
         <section id="home">
           <Home />
         </section>

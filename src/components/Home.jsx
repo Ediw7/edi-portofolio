@@ -36,26 +36,21 @@ const Home = () => {
           data-aos-duration="1000"
           className="text-center md:text-left z-10 mt-8 md:mt-0"
         >
-          {/* Nama dengan animasi berkedip dan glow */}
           <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 mb-4">
             Edi Wicoro
           </h1>
 
-          {/* Profesi dengan animasi bergerak */}
           <p className="text-xl md:text-2xl text-gray-300 mb-6 animate-float">
             <span className="text-blue-400">Web Developer</span> | 
             <span className="text-purple-400"> UI/UX Designer</span> | 
             <span className="text-pink-400"> Graphic Designer</span>
           </p>
 
-          {/* Informasi tambahan dengan animasi mengetik */}
           <p className="text-lg md:text-xl text-gray-400 mb-6 animate-typing" data-aos="fade-up" data-aos-delay="200">
             Mahasiswa Teknik Komputer - Universitas Diponegoro
           </p>
 
-          {/* Tombol dengan animasi hover */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            {/* Tombol WhatsApp */}
             <a
                 href="https://wa.me/6282325720215"
                 target="_blank"
@@ -65,7 +60,6 @@ const Home = () => {
                 Kontak Saya
             </a>
 
-            {/* Tombol View Portfolio */}
             <a
                 href="https://drive.google.com/drive/u/0/folders/17-CuYQHDdHo6lf9ZjQv8CMtEcvTVXorT"
                 target="_blank"
@@ -81,17 +75,14 @@ const Home = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="relative"
+          className="relative w-60 h-60 md:w-80 md:h-80 mb-8 md:mb-0"
         >
-        <div className="w-60 h-60 md:w-80 md:h-80 relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
-        <img
-            src="./images/edi.png"
-            alt="Your Photo"
-            className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10 md:translate-y-0 translate-y-6"
-        />
-        </div>
-
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
+          <img
+              src="./images/edi.png"
+              alt="Your Photo"
+              className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10"
+          />
         </div>
       </div>
 
