@@ -6,24 +6,31 @@ const Pengalaman = () => {
     const experiences = [
       {
         id: 1,
-        year: "2022 - Present",
-        role: "Senior Web Developer",
-        company: "Tech Company",
-        description: "Lead developer for multiple high-impact web projects"
+        year: "2024",
+        role: "Web Developer",
+        company: "PT SUCOFINDO CABANG SEMARANG",
+        description: "Membuat website untuk monitoring dokumen TOR"
       },
       {
         id: 2,
-        year: "2020 - 2022",
-        role: "UI/UX Designer",
-        company: "Design Studio",
-        description: "Created user-centered designs for various clients"
+        year: "2023-2024",
+        role: "Graphic Designer",
+        company: "Higenncy",
+        description: "Membuat desain grafis untuk konten linkedin higenncy"
       },
       {
         id: 3,
-        year: "2018 - 2020",
-        role: "Frontend Developer",
-        company: "Startup",
-        description: "Developed responsive web applications"
+        year: "2023",
+        role: "IoT Engineer",
+        company: "Dosen",
+        description: "Membuat robot untuk dinas kesehatan kota semarang"
+      },
+      {
+        id: 4,
+        year: "2023",
+        role: "Graphic Designer",
+        company: "Higenncy",
+        description: "Membuat email marketing untuk kementerian keuangan"
       }
     ];
 

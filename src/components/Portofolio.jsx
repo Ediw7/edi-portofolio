@@ -86,8 +86,8 @@ const Portfolio = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi
-      easing: 'ease-in-out', // Easing animasi
+      duration: 1000,
+      easing: 'ease-in-out',
     });
   }, []);
 
@@ -130,24 +130,30 @@ const Portfolio = () => {
               data-aos-delay={`${item.id * 100}`}
               className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-1"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="relative p-6 bg-gray-900/90 rounded-lg h-full">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-105 transition-transform duration-300"
-                />
-                <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors duration-300">
-                  {item.title}
-                </h3>
-                <p className="text-gray-400">{item.description}</p>
-                <div className="absolute bottom-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="relative p-6 bg-gray-900/90 rounded-lg">
+                <div className="relative overflow-hidden rounded-lg">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-48 object-cover transition-all duration-300 group-hover:blur-sm"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 bg-black/60">
+                    <p className="text-white text-center px-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="mt-4">
+                  <h3 className="text-xl font-semibold text-white group-hover:text-purple-400 transition-colors duration-300">
+                    {item.title}
+                  </h3>
                   {item.link ? (
                     <a
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm"
+                      className="inline-block mt-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm hover:opacity-90 transition-opacity"
                     >
                       View Website
                     </a>
@@ -156,7 +162,7 @@ const Portfolio = () => {
                       href={item.prototypeLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm"
+                      className="inline-block mt-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm hover:opacity-90 transition-opacity"
                     >
                       View Prototype
                     </a>
