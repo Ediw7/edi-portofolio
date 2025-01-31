@@ -25,9 +25,9 @@ const Portfolio = () => {
       {
         id: 3,
         title: 'PORTOFOLIO',
-        description: 'Social media dashboard',
-        image: '/images/portfolio.jpg',
-        link: 'https://portfolio.vercel.app',
+        description: 'website portofolio pribadi saya',
+        image: '/images/porto.png',
+        link: 'https://edi-portofolio.vercel.app/',
       },
     ],
     uiux: [
@@ -36,44 +36,30 @@ const Portfolio = () => {
         title: 'NUTRICHECK',
         description: 'Aplikasi menghitung gizi makanan',
         image: '/images/nutricheck.png',
-        prototypeLink: 'https://www.figma.com/proto/some-link',
+        prototypeLink: 'https://www.figma.com/proto/zf40ATQFb3QpgmsTfjjrmZ/nutricheck?node-id=3-2&p=f&t=WiI8BENcHviYNnvb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2',
       },
       {
         id: 5,
         title: 'LINGKARBUMI',
         description: 'Aplikasi',
         image: '/images/lingkarbumi.png',
-        prototypeLink: 'https://www.figma.com/proto/some-link',
+        prototypeLink: 'https://www.figma.com/proto/TMeZqzzzr1tMKAV7U2R7P7/lingkarbumi?node-id=410-2&p=f&t=4yS302EvOV3r72LI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=410%3A2',
       },
       {
         id: 6,
         title: 'SUCOFINDO',
         description: 'Website',
         image: '/images/sucofindo.png',
-        prototypeLink: 'https://www.figma.com/proto/some-link',
+        prototypeLink: 'https://www.figma.com/proto/ybrOUciGZ3a9X33oOckBXT/Untitled?node-id=202-31&p=f&t=Bchha4P2fhhXwdn4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=202%3A31&show-proto-sidebar=1',
       },
     ],
     design: [
       {
         id: 7,
-        title: 'Design Project 1',
+        title: 'Design Project',
         description: 'Brand identity',
-        image: '/images/design1.jpg',
-        link: 'https://www.behance.net/some-link',
-      },
-      {
-        id: 8,
-        title: 'Design Project 2',
-        description: 'Marketing materials',
-        image: '/images/design2.jpg',
-        link: 'https://www.behance.net/some-link',
-      },
-      {
-        id: 9,
-        title: 'Design Project 3',
-        description: 'Social media kit',
-        image: '/images/design3.jpg',
-        link: 'https://www.behance.net/some-link',
+        image: '/images/desain.png',
+        portolink: 'https://drive.google.com/drive/u/0/folders/1JHZZNEJrOH3Xh2Yj8n_lJTIIjJ2m4D9t',
       },
     ],
   };
@@ -148,6 +134,7 @@ const Portfolio = () => {
                   <h3 className="text-xl font-semibold text-white group-hover:text-purple-400 transition-colors duration-300">
                     {item.title}
                   </h3>
+                  {/* Ganti tombol dengan View Portfolio */}
                   {item.link ? (
                     <a
                       href={item.link}
@@ -166,7 +153,17 @@ const Portfolio = () => {
                     >
                       View Prototype
                     </a>
-                  ) : null}
+                  ) : (
+                    // Jika tidak ada link atau prototypeLink, tampilkan tombol "View Portfolio"
+                    <a
+                      href={item.link || item.prototypeLink || '#'} // Ganti dengan link yang sesuai jika ada
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm hover:opacity-90 transition-opacity"
+                    >
+                      View Portfolio
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

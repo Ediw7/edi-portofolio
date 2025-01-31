@@ -30,18 +30,7 @@ const Navbar = () => {
           <span className="text-blue-400">Edi</span> <span className="text-purple-500">Wicoro</span>
         </div>
 
-        {/* Hamburger Button */}
-        <button 
-          className="lg:hidden mr-4 p-2 hover:bg-gray-800 rounded transition-colors duration-200" 
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <div className="w-6 h-5 relative flex flex-col justify-between">
-            <span className={`w-full h-0.5 bg-white transform transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-            <span className={`w-full h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-            <span className={`w-full h-0.5 bg-white transform transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
-          </div>
-        </button>
+       
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex space-x-6 mr-10">

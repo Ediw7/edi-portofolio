@@ -62,17 +62,17 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 text-center"
             >
-                Contact Me
+                Kontak Saya
             </a>
 
             {/* Tombol View Portfolio */}
             <a
-                href="https://drive.google.com/your-portfolio-link"
+                href="https://drive.google.com/drive/u/0/folders/17-CuYQHDdHo6lf9ZjQv8CMtEcvTVXorT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-500/10 transition-all duration-300 text-center"
             >
-                View Portfolio
+                Lihat CV
             </a>
           </div>
         </div>
@@ -83,14 +83,15 @@ const Home = () => {
           data-aos-duration="1000"
           className="relative"
         >
-          <div className="w-60 h-60 md:w-80 md:h-80 relative">
+            <div className="w-60 h-60 md:w-80 md:h-80 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
             <img
-              src="./images/edi.png"
-              alt="Your Photo"
-              className="absolute inset-2 rounded-full w-[calc(100%-16px)] h-[calc(100%-16px)] object-cover border-4 border-white/10"
+                src="./images/edi.png"
+                alt="Your Photo"
+                className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10 md:translate-y-0 translate-y-6"
             />
-          </div>
+            </div>
+
         </div>
       </div>
 
