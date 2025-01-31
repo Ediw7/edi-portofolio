@@ -3,6 +3,16 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          once: false, // Animasi muncul setiap kali elemen masuk viewport
+          mirror: true, // Animasi muncul saat scrolling naik & turun
+        });
+    
+        AOS.refresh(); // Refresh AOS setiap kali halaman diperbarui
+      }, []);
+      
     return (
       <section className="min-h-screen relative bg-gradient-to-br from-gray-900 via-gray-800 to-black">
         <div className="absolute inset-0 w-full h-full">
@@ -28,37 +38,42 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Saya adalah seorang Web Developer dan UI/UX Designer dengan pengalaman lebih dari 5 tahun. 
-              Saya memiliki passion dalam menciptakan aplikasi web yang indah dan fungsional.
+            Saya adalah mahasiswa S1 Teknik Komputer di Universitas Diponegoro yang memiliki minat besar dalam pengembangan web dan UI/UX design.  
+            Sejak awal perkuliahan, saya aktif mengembangkan keterampilan di bidang web development dengan fokus pada teknologi frontend dan backend.  
+
+            Selain itu, saya telah mengikuti beberapa program magang yang memberikan pengalaman berharga dalam membangun aplikasi web yang responsif dan interaktif.  
+            Saya selalu tertarik untuk mengeksplorasi teknologi baru dan menciptakan solusi digital yang inovatif.  
+            
             </p>
             <div className="mt-12 grid grid-cols-3 gap-8">
-              <div
+            <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="200"
                 className="p-6 rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
-              >
-                <h3 className="text-2xl font-bold text-blue-400 mb-2">5+</h3>
-                <p className="text-gray-400">Years Experience</p>
-              </div>
-              <div
+                >
+                <h3 className="text-2xl font-bold text-blue-400 mb-2">HTML & CSS</h3>
+                <p className="text-gray-400">Fundamental Web Development</p>
+                </div>
+                <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="400"
                 className="p-6 rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
-              >
-                <h3 className="text-2xl font-bold text-purple-400 mb-2">50+</h3>
-                <p className="text-gray-400">Projects Completed</p>
-              </div>
-              <div
+                >
+                <h3 className="text-2xl font-bold text-purple-400 mb-2">React.js & JavaScript</h3>
+                <p className="text-gray-400">Frontend Development</p>
+                </div>
+                <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="600"
                 className="p-6 rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
-              >
-                <h3 className="text-2xl font-bold text-pink-400 mb-2">30+</h3>
-                <p className="text-gray-400">Happy Clients</p>
-              </div>
+                >
+                <h3 className="text-2xl font-bold text-pink-400 mb-2">Codeigniter4 & PHP</h3>
+                <p className="text-gray-400">Backend Development</p>
+                </div>
+
             </div>
           </div>
         </div>
