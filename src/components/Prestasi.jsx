@@ -6,21 +6,21 @@ const Prestasi = () => {
   const achievements = [
     {
       id: 1,
-      title: "Best Web Design Award",
-      year: "2023",
-      description: "First place in national web design competition"
+      title: "Finalist Web Design",
+      year: "2025",
+      description: "Lomba Techomfest 2025 di POLINES"
     },
     {
       id: 2,
-      title: "UI/UX Excellence",
-      year: "2022",
-      description: "Recognition for outstanding user interface design"
+      title: "Finalist Web Design",
+      year: "2024",
+      description: "Lomba Techomfest 2024 di POLINES"
     },
     {
       id: 3,
-      title: "Innovation Award",
-      year: "2021",
-      description: "Most innovative web application solution"
+      title: "Pendanaan PPK ORMAWA",
+      year: "2024",
+      description: "Pengabdian ke Desa Branjang"
     }
   ];
 
