@@ -24,11 +24,19 @@ const Portfolio = () => {
       },
       {
         id: 3,
+        title: 'KAMPUNG KREATIF',
+        description: 'website desa wisaata',
+        image: '/images/kampungKreatif.jpg',
+        link: 'https://kampungkreatif.netlify.app/',
+      },
+      {
+        id: 4,
         title: 'PORTOFOLIO',
         description: 'website portofolio pribadi saya',
         image: '/images/porto.png',
         link: 'https://edi-portofolio.vercel.app/',
       },
+      
     ],
     uiux: [
       {
