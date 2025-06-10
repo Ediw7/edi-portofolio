@@ -10,27 +10,34 @@ const Portfolio = () => {
     web: [
       {
         id: 1,
+        title: 'RiverClean',
+        description: 'Website pelestarian sungai',
+        image: '/images/river.jpg',
+        link: 'https://river-clean.vercel.app/',
+      },
+      {
+        id: 2,
         title: 'IMADIBA',
         description: 'Website organisasi daerah',
         image: '/images/imadiba.png',
         link: 'https://imadiba.vercel.app',
       },
       {
-        id: 2,
+        id: 3,
         title: 'BIOFUN',
         description: 'Website belajar biologi',
         image: '/images/biofun.png',
         link: 'https://biofun.vercel.app',
       },
       {
-        id: 3,
+        id: 4,
         title: 'KAMPUNG KREATIF',
         description: 'website desa wisaata',
         image: '/images/kampungKreatif.jpg',
         link: 'https://kampungkreatif.netlify.app/',
       },
       {
-        id: 4,
+        id: 5,
         title: 'PORTOFOLIO',
         description: 'website portofolio pribadi saya',
         image: '/images/porto.png',
