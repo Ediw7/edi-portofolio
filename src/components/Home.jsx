@@ -3,19 +3,17 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Home = () => {
-    useEffect(() => {
-        AOS.init({
-          duration: 1000,
-          once: false,
-          mirror: true,
-        });
-    
-        AOS.refresh();
-      }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <section className="min-h-screen relative bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
-      {/* Animated background elements */}
       <div className="absolute inset-0 w-full h-full">
         <div
           className="absolute top-10 left-10 w-48 md:w-72 h-48 md:h-72 bg-blue-500/30 rounded-full mix-blend-multiply filter blur-xl animate-pulse"
@@ -30,7 +28,6 @@ const Home = () => {
       </div>
 
       <div className="relative container mx-auto min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 py-20 md:py-0">
-        {/* Left Section: Text Content */}
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
@@ -71,7 +68,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Section: Foto dengan animasi fade-right */}
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -79,14 +75,13 @@ const Home = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
           <img
-              src="./images/edi.png"
-              alt="Your Photo"
-              className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10"
+            src="./images/edi.png"
+            alt="Your Photo"
+            className="absolute inset-0 rounded-full w-full h-full object-cover border-4 border-white/10"
           />
         </div>
       </div>
 
-      {/* Custom CSS untuk animasi */}
       <style>
         {`
           @keyframes float {
