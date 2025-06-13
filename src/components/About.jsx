@@ -43,7 +43,7 @@ const About = () => {
           
          
           <p className="text-lg text-gray-300 leading-relaxed md:text-xl">
-            Saya adalah mahasiswa S1 Teknik Komputer di Universitas Diponegoro yang memiliki minat besar dalam pengembangan web dan UI/UX design. Sejak awal perkuliahan, saya aktif mengembangkan keterampilan di bidang web development dengan fokus pada teknologi frontend dan backend. Selain itu, saya telah mengikuti beberapa program magang yang memberikan pengalaman berharga dalam membangun aplikasi web yang responsif dan interaktif. Saya selalu tertarik untuk mengeksplorasi teknologi baru dan menciptakan solusi digital yang inovatif.
+          Saya adalah mahasiswa S1 Teknik Komputer dengan minat dan keahlian dalam pengembangan web. Saya sangat antusias menggabungkan pengetahuan teknis dengan kreativitas untuk merancang solusi digital yang inovatif dan responsif. Selama studi, saya telah mengembangkan pemahaman mendalam tentang pengembangan aplikasi berbasis web menggunakan teknologi seperti CodeIgniter, React.js, HTML, CSS, dan JavaScript. Saya juga memiliki pengalaman dalam menggunakan Figma untuk merancang antarmuka pengguna yang menarik dan intuitif. Saat ini, saya juga sedang mengembangkan teknologi blockchain menggunakan Hyperledger Fabric dan Node.js, sebagai bagian dari upaya saya untuk memperluas wawasan dan mengaplikasikan teknologi terkini dalam pengembangan sistem terdistribusi yang aman dan transparan.
           </p>
 
          
@@ -66,7 +66,7 @@ const About = () => {
               data-aos-delay="400"
               className="p-6 rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-purple-400 mb-2">React.js & JavaScript</h3>
+              <h3 className="text-xl font-bold text-purple-400 mb-2">React.js</h3>
               <p className="text-base text-gray-400">Frontend Development</p>
             </div>
 
@@ -77,7 +77,7 @@ const About = () => {
               data-aos-delay="600"
               className="p-6 rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 sm:col-span-2 md:col-span-1"
             >
-              <h3 className="text-xl font-bold text-pink-400 mb-2">Codeigniter4 & PHP</h3>
+              <h3 className="text-xl font-bold text-pink-400 mb-2">Codeigniter4, Node JS</h3>
               <p className="text-base text-gray-400">Backend Development</p>
             </div>
           </div>
