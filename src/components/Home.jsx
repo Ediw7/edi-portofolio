@@ -39,7 +39,7 @@ const Home = () => {
 
           <p className="text-xl md:text-2xl text-gray-300 mb-6 animate-float">
             <span className="text-blue-400">Web Developer</span> | 
-            <span className="text-purple-400">"Blockchain Enthusiat"</span> | 
+            <span className="text-purple-400">Blockchain Enthusiast</span> | 
             <span className="text-pink-400"> Graphic Designer</span>
           </p>
           

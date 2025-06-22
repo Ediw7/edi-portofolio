@@ -82,7 +82,7 @@ const Footer = () => {
               <li>Web Development</li>
               <li>UI/UX Design</li>
               <li>Graphic Design</li>
-              <li>Blockchain Enthusiat</li>
+              <li>Blockchain Enthusiast</li>
             </ul>
           </div>
 
