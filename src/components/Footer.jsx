@@ -48,10 +48,10 @@ const Footer = () => {
               <a href="https://github.com/Ediw7" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors" aria-label="Github">
                 <GithubIcon />
               </a>
-              <a href="https://www.linkedin.com/in/edi-wicoro-249520261/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/edi-wicoro-300178371/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors" aria-label="LinkedIn">
                 <LinkedInIcon />
               </a>
-              <a href="https://www.instagram.com/edwicoro_/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/ediwicoro07/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors" aria-label="Instagram">
                 <InstagramIcon />
               </a>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               <li>Web Development</li>
               <li>UI/UX Design</li>
               <li>Graphic Design</li>
-              <li>IoT Development</li>
+              <li>Blockchain Enthusiat</li>
             </ul>
           </div>
 
