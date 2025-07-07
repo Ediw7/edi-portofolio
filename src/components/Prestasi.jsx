@@ -6,6 +6,12 @@ const Prestasi = () => {
   const achievements = [
     {
       id: 1,
+      title: "Finalist Web Development",
+      year: "2025",
+      description: "Berkompetisi di babak final dalam kategori Web Development pada acara SILOGY EXPO 2025 yang diselenggarakan oleh UNSIKA."
+    },
+    {
+      id: 1,
       title: "Finalist Web Design",
       year: "2025",
       description: "Berkompetisi di babak final dalam kategori Web Design pada acara Technofest 2025 yang diselenggarakan oleh POLINES."
