@@ -9,11 +9,12 @@ const Portfolio = () => {
 
   const portfolioItems = {
     web: [
-        { id: 1, title: 'RiverClean', description: 'Website untuk kampanye dan edukasi pelestarian sungai.', image: '/images/river.jpg', link: 'https://river-clean.vercel.app/' },
-        { id: 2, title: 'IMADIBA', description: 'Website profil untuk organisasi daerah IMADIBA Batang.', image: '/images/imadiba.png', link: 'https://imadiba.vercel.app' },
-        { id: 3, title: 'BIOFUN', description: 'Platform e-learning interaktif untuk pembelajaran biologi.', image: '/images/biofun.png', link: 'https://biofun.vercel.app' },
-        { id: 4, title: 'KAMPUNG KREATIF', description: 'Website promosi dan informasi untuk desa wisata.', image: '/images/kampungKreatif.jpg', link: 'https://kampungkreatif.netlify.app/' },
-        { id: 5, title: 'PORTOFOLIO', description: 'Website portofolio pribadi untuk menampilkan karya.', image: '/images/porto.png', link: 'https://edi-portofolio.vercel.app/' },
+      { id: 1, title: 'Taniku', description: 'Website platform digital untuk petani dan dinas.', image: '/images/taniku.jpg', link: 'https://taniku.vercel.app/' },
+        { id: 2, title: 'RiverClean', description: 'Website untuk kampanye dan edukasi pelestarian sungai.', image: '/images/river.jpg', link: 'https://river-clean.vercel.app/' },
+        { id: 3, title: 'IMADIBA', description: 'Website profil untuk organisasi daerah IMADIBA Batang.', image: '/images/imadiba.png', link: 'https://imadiba.vercel.app' },
+        { id: 4, title: 'BIOFUN', description: 'Platform e-learning interaktif untuk pembelajaran biologi.', image: '/images/biofun.png', link: 'https://biofun.vercel.app' },
+        { id: 5, title: 'KAMPUNG KREATIF', description: 'Website promosi dan informasi untuk desa wisata.', image: '/images/kampungKreatif.jpg', link: 'https://kampungkreatif.netlify.app/' },
+        { id: 6, title: 'PORTOFOLIO', description: 'Website portofolio pribadi untuk menampilkan karya.', image: '/images/porto.png', link: 'https://edi-portofolio.vercel.app/' },
     ],
     uiux: [
         { id: 6, title: 'NUTRICHECK', description: 'Desain aplikasi mobile untuk menghitung gizi makanan.', image: '/images/nutricheck.png', prototypeLink: 'https://www.figma.com/proto/zf40ATQFb3QpgmsTfjjrmZ/nutricheck?node-id=3-2' },

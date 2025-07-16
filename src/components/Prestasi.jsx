@@ -6,7 +6,7 @@ const Prestasi = () => {
   const achievements = [
     {
       id: 1,
-      title: "Finalist Web Development",
+      title: "Juara 3 Web Development",
       year: "2025",
       description: "Berkompetisi di babak final dalam kategori Web Development pada acara SILOGY EXPO 2025 yang diselenggarakan oleh UNSIKA."
     },
